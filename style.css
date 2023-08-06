@@ -1,0 +1,57 @@
+body {
+    background-image: url(OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    background-color: ivory;
+    padding: 10px 13px;
+    border: solid black;
+}
+
+h3 {
+    padding: 10px 13px;
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    padding: 10px 13px;
+}
+
+.DAFTARPELAJARAN {
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.DAFTARPELAJARAN table {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 10px;
+      row-gap: 10px;
+}
+
+.container > div {
+  background: lightpink;
+  height: auto;
+  border-radius: 13px;
+}
